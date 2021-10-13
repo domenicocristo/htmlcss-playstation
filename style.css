@@ -18,3 +18,15 @@ header {
     height: 18px;
     margin: 10px;
 }
+
+#button-nav {
+    color: white;
+    background-color: #363636;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+#lens-nav {
+    height: 30px;
+}
