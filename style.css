@@ -37,7 +37,8 @@
     background-image: url(img/jumbo-bg.png);
 }
 
-#jumbotron section {
+#jumbotron section,
+#takes-two section {
     width: 370px;
     position: absolute;
     bottom: 80px;
@@ -50,7 +51,8 @@
     margin-bottom: 30px;
 }
 
-#jumbotron button {
+#jumbotron button,
+#takes-two button {
     border: none;
     border-radius: 20px;
     background-color: #cd3d10;
@@ -127,5 +129,16 @@
 .block-accessories img {
     height: 100%;
     width: 100%;
+}
+
+#takes-two { 
+    position: relative;
+    height: 700px;
+    background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+#takes-two img {
+    height: 150px;
+    margin-bottom: 30px;
 }
 /* /Main */
