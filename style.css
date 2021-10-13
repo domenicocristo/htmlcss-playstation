@@ -4,12 +4,7 @@
     box-sizing: border-box;
 }
 
-header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
+/* Header */
 #logo-header {
     background-color: black;
 }
@@ -25,8 +20,55 @@ header {
     border: none;
     border-radius: 20px;
     padding: 5px 10px;
+    margin: 10px;
 }
 
 #lens-nav {
     height: 30px;
+    margin: 10px;
+    cursor: pointer;
 }
+/* /Header */
+
+/* Jumbotron */
+#jumbotron {
+    position: relative;
+    height: 850px;
+    background-image: url(img/returnal-listing-thumb-01-ps5.jpg);
+}
+
+#jumbotron section {
+    width: 370px;
+    position: absolute;
+    bottom: 80px;
+    left: 50px;
+    color: white;
+} 
+
+#jumbotron button {
+    border: none;
+    border-radius: 20px;
+    background-color: #cd3d10;
+    color: white;
+    padding: 5px 10px;
+    margin-top: 20px;
+}
+/* /Jumbotron */
+
+/* Main */
+.container-block {
+    height: 130px;
+    padding: 10px;
+}
+
+.block {
+    height: 100%;
+    margin: 30px 20px;
+}
+
+.block img {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+/* /Main */
