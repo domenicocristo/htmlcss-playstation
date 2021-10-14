@@ -36,7 +36,7 @@
     height: 650px;
     background-image: url(img/jumbo-bg.png);
     background-size: cover;
-    background-position: center;
+    background-position: 100% 100px;
     background-repeat: no-repeat;
 }
 
@@ -54,22 +54,24 @@
     margin-bottom: 30px;
 }
 
-#jumbotron button,
-#takes-two button {
+button {
     border: none;
     border-radius: 20px;
+    padding: 5px 10px;
+}
+
+#jumbotron button,
+#takes-two button {
     background-color: #cd3d10;
     color: white;
-    padding: 5px 10px;
     margin-top: 20px;
 }
 /* /Jumbotron */
 
 /* Main */
 /* Blocchi */
-.container-block {
-    height: 160px;
-    padding: 30px;
+.row-games {
+    margin: 30px;
 }
 
 .block {
@@ -83,7 +85,8 @@
 }
 /* /Blocchi */
 
-#ecco-playstation5 {
+#ecco-playstation5,
+#esplora-ps4 {
     margin-top: 100px;
 }
 
@@ -101,22 +104,21 @@
     margin-top: 150px;
 }
 
-.text-ps5 {
+.text-ps5,
+#sconti-store {
     margin-top: 100px;
 }
 
-.text-ps5 div {
+.text-ps5 div,
+#sconti-store div {
     font-size: 20px;
     color: #7d7d7d;
     margin-top: 30px;
 }
 
 .text-ps5 button {
-    border: none;
-    border-radius: 20px;
     background-color: #2c64e6;
     color: white;
-    padding: 5px 10px;
     margin-top: 30px;
 }
 
@@ -154,8 +156,119 @@
 /* /It Two Takes */
 
 /* Nuove uscite */
+#header-nuove-uscite {
+    color: white;
+    margin-left: 30px;
+}
 #nuove-uscite {
     background-color: #1f1f1f;
+    padding-top: 40px;
+}
+
+.container-block-nuove-uscite {
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+.row-nuove-uscite {
+    margin: 0 40px;
+}
+
+.block-nuove-uscite {
+    height: 100%;
+}
+
+.block-nuove-uscite img {
+    height: 80%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.block-nuove-uscite h6 {
+    color: white;
+    margin-top: 10px;
 }
 /* /Nuove uscite */
+
+#esplora-ps4 h1 {
+    margin-bottom: 20px;
+}
+
+#esplora-ps4 div {
+    color: #7d7d7d;
+    font-size: 20px;
+}
+
+.row-prodotti,
+.row-store {
+    margin: 80px 30px;
+}
+
+.block-prodotti img,
+.block-store img,
+.block-social img {
+    width: 100%;
+}
+
+.block-prodotti button {
+    background-color: #2c64e6;
+    color: white;
+}
+
+/* PlayStation Plus */
+#ps-plus,
+#ps-now { 
+    position: relative;
+    height: 500px;
+    background-color: #bebcbb;
+    background-image: url(img/ps-plus-april-monthly-games-featured-image-block.png);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+
+#ps-plus div,
+#ps-now div {
+    width: 550px;
+    position: absolute;
+    bottom: 150px;
+    left: 50px;
+}
+
+#ps-plus img,
+#ps-now img {
+    height: 80px;
+    margin-bottom: 30px;
+}
+
+#ps-plus button {
+    background-color: #d9dadc;
+    color: #2f68e6;
+    margin-top: 30px;
+}
+/* /PlayStation Plus */
+
+/* PlayStation Now */
+#ps-now {
+    background-color: #161c3b;
+    background-image: url(img/ps-now-april-featured-image-block.png);
+}
+
+#ps-now div {
+    color: white;
+}
+
+#ps-now button {
+    margin-top: 30px;
+}
+/* /PlayStation Now */
+
+#text-social {
+    margin-top: 100px;
+}
+
+.row-social {
+    margin: 80px 400px;
+}
 /* /Main */
