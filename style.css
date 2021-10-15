@@ -16,6 +16,10 @@
     float: right;
 }
 
+#arrow {
+    height: 15px;
+    margin-left: 5px;
+}
 #button-nav {
     color: white;
     background-color: #363636;
@@ -38,7 +42,7 @@
     height: 650px;
     background-image: url(img/jumbo-bg.png);
     background-size: cover;
-    background-position: 100% 100px;
+    background-position: 40% 100px;
     background-repeat: no-repeat;
 }
 
@@ -68,25 +72,37 @@ button {
     color: white;
     margin-top: 20px;
 }
+
+button:hover {
+    border: 3px solid white;
+}
 /* /Jumbotron */
 
 /* Main */
-/* Blocchi */
+/* Blocchi Giochi*/
 .row-games {
     margin: 30px;
 }
 
-.block {
+.block-games {
     height: 100%;
+    padding: 1px;
 }
 
-.block img {
+.block-games img {
     height: 100%;
     width: 100%;
     border-radius: 20px;
+    opacity: 0.8;
 }
-/* /Blocchi */
 
+.block-games img:hover {
+    opacity: 1;
+    border: 3px solid #0372ce;
+}
+/* /Blocchi Giochi */
+
+/* Ecco PS5 */
 #ecco-playstation5,
 #esplora-ps4 {
     margin-top: 100px;
@@ -101,7 +117,9 @@ button {
     font-size: 20px;
     margin-top: 20px;
 }
+/* /Ecco PS5 */
 
+/* PS5 */
 #console-playstation5 {
     margin-top: 150px;
 }
@@ -127,16 +145,23 @@ button {
 #console-playstation5 img {
     height: 700px;
 }
+/* /PS5 */
 
 /* Accessori */
 .block-accessories {
     height: 200px;
     text-align: center;
+    opacity: 0.8;
 }
 
 .block-accessories img {
     height: 80%;
     margin-bottom: 10px;
+}
+
+.block-accessories:hover {
+    opacity: 1;
+    border-bottom: 3px solid #0372ce;
 }
 /* /Accessori */
 
@@ -192,6 +217,7 @@ button {
 }
 /* /Nuove uscite */
 
+/* Esplora PS4 */
 #esplora-ps4 h1 {
     margin-bottom: 20px;
 }
@@ -216,6 +242,7 @@ button {
     background-color: #2c64e6;
     color: white;
 }
+/* /Esplora PS4 */
 
 /* PlayStation Plus */
 #ps-plus,
@@ -266,6 +293,7 @@ button {
 }
 /* /PlayStation Now */
 
+/* Social Media */
 #text-social {
     margin-top: 100px;
 }
@@ -273,6 +301,7 @@ button {
 .row-social {
     margin: 80px 400px;
 }
+/* /Social Media */
 /* /Main */
 
 /* Footer */
@@ -285,7 +314,11 @@ footer {
     padding: 80px 30px 0 30px;
 }
 
-footer img:first-child {
+.ps-country {
+    margin-bottom: 20px;
+}
+
+.ps-country img:first-child {
     width: 100px;
     margin-bottom: 50px;
 }
@@ -298,4 +331,19 @@ footer img:first-child {
 .ps-country div {
     display: inline-block;
 }
+
+.copyright img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.copyright a {
+    color: white;
+}
 /* /Footer */
+
+/* Media Query */
+@media screen and (max-width; ) 
+    
+
+/* /Media Query */
