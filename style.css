@@ -16,10 +16,11 @@
     float: right;
 }
 
-#arrow {
+.arrow {
     height: 15px;
     margin-left: 5px;
 }
+
 #button-nav {
     color: white;
     background-color: #363636;
@@ -74,7 +75,7 @@ button {
 }
 
 button:hover {
-    border: 3px solid white;
+    opacity: 0.8;
 }
 /* /Jumbotron */
 
@@ -86,7 +87,7 @@ button:hover {
 
 .block-games {
     height: 100%;
-    padding: 1px;
+    padding: 10px;
 }
 
 .block-games img {
@@ -96,7 +97,8 @@ button:hover {
     opacity: 0.8;
 }
 
-.block-games img:hover {
+.block-games img:hover,
+.block-nuove-uscite img:hover {
     opacity: 1;
     border: 3px solid #0372ce;
 }
@@ -143,7 +145,7 @@ button:hover {
 }
 
 #console-playstation5 img {
-    height: 700px;
+    width: 100%;
 }
 /* /PS5 */
 
@@ -278,6 +280,12 @@ button:hover {
 }
 /* /PlayStation Plus */
 
+/* Store */
+.block-store {
+    margin: 10px;
+}
+/* /Store */
+
 /* PlayStation Now */
 #ps-now {
     background-color: #161c3b;
@@ -299,7 +307,11 @@ button:hover {
 }
 
 .row-social {
-    margin: 80px 400px;
+    margin: 80px 25%;
+}
+
+.block-social {
+    margin: 10px;
 }
 /* /Social Media */
 /* /Main */
@@ -343,7 +355,7 @@ footer {
 /* /Footer */
 
 /* Media Query */
-@media screen and (max-width; ) 
+@media screen and (max-width; ) {
     
-
+}
 /* /Media Query */
