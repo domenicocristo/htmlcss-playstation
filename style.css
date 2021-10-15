@@ -75,6 +75,7 @@ button {
 }
 
 button:hover {
+    transition: 0.5s;
     opacity: 0.8;
 }
 /* /Jumbotron */
@@ -95,11 +96,14 @@ button:hover {
     width: 100%;
     border-radius: 20px;
     opacity: 0.8;
+    padding: 3px;
 }
 
 .block-games img:hover,
 .block-nuove-uscite img:hover {
     opacity: 1;
+    transition: 0.5s;
+    margin-top: 5px;
     border: 3px solid #0372ce;
 }
 /* /Blocchi Giochi */
@@ -153,7 +157,7 @@ button:hover {
 .block-accessories {
     height: 200px;
     text-align: center;
-    opacity: 0.8;
+    opacity: 0.5;
 }
 
 .block-accessories img {
@@ -163,7 +167,8 @@ button:hover {
 
 .block-accessories:hover {
     opacity: 1;
-    border-bottom: 3px solid #0372ce;
+    border-bottom: 2px solid #0372ce;
+    transition: 0.5s;
 }
 /* /Accessori */
 
@@ -211,6 +216,7 @@ button:hover {
     height: 80%;
     width: 100%;
     border-radius: 20px;
+    opacity: 0.5;
 }
 
 .block-nuove-uscite h6 {
@@ -353,9 +359,3 @@ footer {
     color: white;
 }
 /* /Footer */
-
-/* Media Query */
-@media screen and (max-width; ) {
-    
-}
-/* /Media Query */
