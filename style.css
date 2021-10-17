@@ -361,7 +361,7 @@ footer {
 /* /Footer */
 
 /* Media Query */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
     #ps-plus {
         background-image: none;
     }
