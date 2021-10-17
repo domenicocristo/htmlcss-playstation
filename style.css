@@ -359,3 +359,15 @@ footer {
     color: white;
 }
 /* /Footer */
+
+/* Media Query */
+@media screen and (max-width: 900px) {
+    #ps-plus {
+        background-image: none;
+    }
+
+    #ps-now {
+        background-image: none;
+    }
+}
+/* /Media Query */
